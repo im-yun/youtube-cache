@@ -1,0 +1,37 @@
+{
+  "name": "youtube-cache",
+  "version": "1.0.0",
+  "description": "A simple Node wrapper of `youtube-cache` api used to fetch/store videos you fetch from youtube to save quota reuests",
+  "main": "index.js",
+  "author": "Cloud",
+  "contributors": [
+    {
+      "name": "Cloud#9476",
+      "discord": "Cloud#9476"
+    },
+    {
+      "name": "Unique",
+      "discord": "Unique / Dev#5099"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "repository": {
+    "url": "https://github.com/im-yun/youtube-cache"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "API",
+    "Wrapper",
+    "YouTube",
+    "Cache"
+  ],
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}

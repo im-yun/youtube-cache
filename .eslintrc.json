@@ -1,0 +1,37 @@
+{
+	"root": true,
+	"env": {
+		"es6": true,
+		"node": true
+	},
+	"extends": ["eslint:recommended"],
+	"globals": {
+		"Atomics": "readonly",
+		"SharedArrayBuffer": "readonly"
+	},
+	"parserOptions": {
+		"ecmaVersion": 11,
+		"sourceType": "module"
+	},
+	"rules": {
+		"object-literal-sort-keys": 0,
+		"ordered-imports": 0,
+		"curly": 0,
+		"object-curly-spacing": ["error", "always"],
+		"no-console": 0,
+		"camelcase": [2, { "properties": "always" }],
+		"no-var": 1,
+		"indent": ["error", "tab", { "SwitchCase": 1 }],
+		"quotes": ["error", "double"],
+		"semi": 2,
+		"prefer-const": 1,
+		"interface-name": 0,
+		"jsdoc-format": 0,
+		"prefer-for-of": 0,
+		"max-classes-per-file": 0,
+		"no-shadowed-variable": 0,
+		"member-ordering": 0,
+		"no-empty": 0,
+		"linebreak-style": 0
+	}
+}
